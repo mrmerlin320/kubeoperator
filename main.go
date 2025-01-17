@@ -23,7 +23,7 @@ var (
 func init() {
 	sdkK8sutil.AddToSDKScheme(AddToScheme)
 }
-// addKnownTypes adds the set of types defined in this package to the supplied scheme.
+// addKnownTypes adds the set of types defined in this package to the supplied scheme (TODO1)
 func addKnownTypes(scheme *runtime.Scheme) error {
 	scheme.AddKnownTypes(SchemeGroupVersion,
 		&WeatherReport{},
