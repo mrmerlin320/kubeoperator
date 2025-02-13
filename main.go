@@ -10,8 +10,10 @@ import (
 
 const (
 	version   = "v1"
+	kind = "operator"
 	groupName = "k8s.packt.com"
 )
+
 
 var (
 	SchemeBuilder = runtime.NewSchemeBuilder(addKnownTypes)
