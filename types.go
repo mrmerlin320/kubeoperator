@@ -22,7 +22,7 @@ type WeatherReport struct {
 }
 
 type WeatherReportSpec struct {
-	City string `json:"city"`
+	City string `json:"cities"`
 	Days int    `json:"days"`
 }
 
