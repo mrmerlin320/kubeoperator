@@ -1,1 +1,3 @@
 # kubeoperator
+
+# kind config
